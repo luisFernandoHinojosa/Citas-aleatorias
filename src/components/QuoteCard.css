@@ -1,0 +1,62 @@
+:root{
+    --font-parrafo:'Caveat', cursive;
+    --font-title:'Tourney', cursive;
+    --font-author:'Poppins', sans-serif;
+}
+
+.quoteCard__title{
+    font-family: var(--font-title);
+    font-size: 40px;
+    color: #fff;
+}
+
+.quoteCard{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.quoteCard__container{
+    margin: auto;
+    max-width: 410px;
+    
+
+}
+
+.container__phrase{
+    background-color: rgba(186, 206, 182, 0.447);
+    margin: 30px auto;
+    min-height: 150px;
+    max-height: auto;
+    display: grid;
+    border-radius: 30px;
+
+}
+
+.quoteCard__phrase{
+    margin: auto 20px;
+    color: #fff;
+    font-size: 40px;
+    font-family: var(--font-parrafo);   
+}
+
+.quoteCard__btn{
+    background-color: rgb(110, 179, 239);
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.bx{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.quoteCard__footer{
+    font-family: var(--font-author);
+    color: #fff;
+    font-size: 20px;
+}
