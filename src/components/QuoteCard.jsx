@@ -1,13 +1,14 @@
 import "./QuoteCard.css"
+import CopyText from "../utils/CopyText"
 
  // eslint-disable-next-line react/prop-types
  const QuoteCard = ({quote, handleChangeQuote}) => {
-    console.log(quote)
 
   return (
     <section className="quoteCard">
          <article className="quoteCard__container">
             <h1 className="quoteCard__title">Infogalax</h1>
+            <CopyText textCopy={quote.phrase}/>
             <div className="container__phrase">
             <p className="quoteCard__phrase">{quote.phrase}</p>
             </div>
@@ -15,7 +16,7 @@ import "./QuoteCard.css"
          </article>
 
         <footer className="quoteCard__footer">
-            Autor: {quote.author}
+            <p> <strong className="author">Autor:</strong> {quote.author}</p>
         </footer>
     </section>
   )
