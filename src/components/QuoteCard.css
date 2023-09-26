@@ -15,7 +15,7 @@
 
 .copy__text{
     position: relative;
-    left: 180px;
+    left: 170px;
     top: 20px;
 }
 
@@ -27,18 +27,17 @@
 }
 
 .quoteCard{
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-rows: 1fr auto;
     text-align: center;
     align-items: center;
-    
 }
 
 .quoteCard__container{
     margin: auto;
-    max-width: 410px;
-    
+    max-width: 410px; 
 
 }
 
@@ -66,7 +65,6 @@
     border-radius: 100%;
     cursor: pointer;
     border: 2px solid rgb(251, 251, 251);
-    transition: transform all .2s;
 }
 
 .quoteCard__btn:hover{
@@ -91,14 +89,22 @@
     font-size: 16px;    
 }
 
-@media (max-width:320px){
+@media (max-width:375px){
     .quoteCard__phrase{
         font-size: 16px;
+        color: red;
     }
 
     .quoteCard__container{
-        margin: auto;
-       width: 100%;
-       height: auto;    
+        max-width: 100%; 
     }
+
+    .quoteCard{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+
+
 }

@@ -1,6 +1,8 @@
 .app{
     background-size: cover;
     background-position: center;
+    display: grid;
+    place-content: center;
 }
 
 .bg1{
