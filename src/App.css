@@ -1,22 +1,28 @@
 .app{
     background-size: cover;
     background-position: center;
-    display: grid;
-    place-content: center;
 }
 
 .bg1{
-    background-image: url(/public/images/fondo5.jpg);
+    background-image: url(/public/images/bg1.jpg);
 }
 
 .bg2{
-    background-image: url(/public/images/fondo6.jpg);
+    background-image: url(/public/images/bg2.jpg);
 }
 
 .bg3{
-    background-image: url(/public/images/fondo7.jpg);
+     background-image: url(/public/images/bg3.jpg);
 }
 
 .bg4{
-    background-image: url(/public/images/fondo8.jpg);
+     background-image: url(/public/images/bg4.jpg);
+}
+
+.bg5{
+    background-image: url(/public/images/bg5.jpg);
+}
+
+.bg6{
+    background-image: url(/public/images/bg6.jpg);
 }

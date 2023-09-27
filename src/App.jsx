@@ -3,9 +3,8 @@ import './App.css'
 import quotes from './db/quotes.json'
 import { getRandomElement } from './utils/random'
 import QuoteCard  from './components/QuoteCard'
-import CopyText from './utils/CopyText'
 
-const backgrounds = ["bg1", "bg2", "bg3", "bg4"]
+const backgrounds = ["bg1", "bg2", "bg3", "bg4", "bg5", "bg6"]
 function App() {
   const [quote, setQuote] = useState(getRandomElement(quotes))
   const [currentBg, setCurrentBg] = useState(getRandomElement(backgrounds))

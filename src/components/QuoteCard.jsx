@@ -18,6 +18,8 @@ import CopyText from "../utils/CopyText"
         <footer className="quoteCard__footer">
             <p> <strong className="author">Autor:</strong> {quote.author}</p>
         </footer>
+
+        
     </section>
   )
 }

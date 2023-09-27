@@ -5,10 +5,7 @@ const CopyText = ({textCopy}) => {
   return (
     <div className="copy__text">
         <CopyToClipboard text={textCopy}>
-            <>
                 <button className="copy__btn" onClick={()=>toast('Copied text')}>Copy</button>
-            </>
-            
         </CopyToClipboard>
         <Toaster/>
     </div>
