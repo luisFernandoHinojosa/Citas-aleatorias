@@ -18,6 +18,14 @@ function App() {
   return (
     <main className={`app ${currentBg}`}>
       <QuoteCard quote={quote} handleChangeQuote={handleChangeQuote}/>
+      <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error minus vel natus ullam quaerat sit eligendi possimus, animi hic delectus molestiae magnam facere exercitationem, corrupti enim. Impedit, cupiditate accusamus!</p>
+      </div>
+      <section>
+        <div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nemo alias, non perferendis placeat velit similique, assumenda, reiciendis modi quibusdam dolor excepturi. Laboriosam ducimus nisi, quasi porro aperiam facilis quo.</p>
+        </div>
+      </section>
     </main>
   )
 }
